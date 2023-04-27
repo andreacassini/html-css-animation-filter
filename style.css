@@ -71,6 +71,19 @@
 /* Esercizio 1 */
 
 .ex-1-square:hover{
-    transition: 3s;
     background-color: red;
+}
+
+.ex-1-square{
+    transition: 3s;
+}
+
+/* Esercizio 2 */
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+.ex-2-square{
+    transition: 3s;
 }
