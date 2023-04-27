@@ -69,3 +69,8 @@
 }
 
 /* Esercizio 1 */
+
+.ex-1-square:hover{
+    transition: 3s;
+    background-color: red;
+}
