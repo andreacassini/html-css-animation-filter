@@ -111,7 +111,7 @@
 /* Esercizio 5 */
 
 .ex-5-square:hover{
-    scale: 2;
+    transform: scale(2);
 }
 
 .ex-5-square{
@@ -119,7 +119,7 @@
 }
 
 .ex-5-square:active{
-    scale: 0.5;
+    transform: scale(0.5);
 }
 
 .ex-5-square{
@@ -156,7 +156,7 @@
 /* Esercizio 9 */
 
 .ex-9-img:hover{
-    scale: 1.5;
+    transform: scale(1.5);
     filter: grayscale(50%) sepia(50%);
     border-radius: 20px;
 }
@@ -182,7 +182,29 @@
 }
 
 @keyframes giro_trequarti{
-    0%{rotate: 0deg;}
-    90%{rotate: 320deg;}
-    100%{rotate: 0deg;}
+    0%{transform: rotate (0);}
+    90%{transform: rotate (320deg);}
+    100%{transform: rotate (0);}
+}
+
+/* Esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: topwhite 2s linear;
+}
+
+@keyframes topwhite{
+    0%{left: 10%;}
+    50%{calc: 100% - 60px;}
+    100%{left: 10%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottomwhite 2s linear;
+}
+
+@keyframes bottomwhite{
+    0%{right: 20%;}
+    50%{calc: 100% - 60px;}
+    100%{right: 20%;}
 }
