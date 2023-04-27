@@ -176,3 +176,13 @@
 }
 
 /* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation: giro_trequarti 2s linear;
+}
+
+@keyframes giro_trequarti{
+    0%{rotate: 0deg;}
+    90%{rotate: 320deg;}
+    100%{rotate: 0deg;}
+}
