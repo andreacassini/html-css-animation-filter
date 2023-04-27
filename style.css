@@ -172,7 +172,7 @@
 }
 
 @keyframes giro{
-    0%{transform: rotate(1turn);}
+    100%{transform: rotate(1turn);}
 }
 
 /* Esercizio 11 */
@@ -182,9 +182,9 @@
 }
 
 @keyframes giro_trequarti{
-    0%{transform: rotate (0);}
-    90%{transform: rotate (320deg);}
-    100%{transform: rotate (0);}
+    0%{transform: rotate(0);}
+    90%{transform: rotate(320deg);}
+    100%{transform: rotate(0);}
 }
 
 /* Esercizio 12 */
@@ -207,4 +207,32 @@
     0%{right: 20%;}
     50%{right: calc(100% - 60px);}
     100%{right: 20%;}
+}
+
+/* Esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: move_top 2s linear;
+}
+
+@keyframes move_top{
+    0%{
+        left: 10%;
+    }
+    25%{
+        left: calc(100% - 30px);
+    }
+    50%{
+        left: calc(100% - 30px);
+        top: 100%
+    }
+    75%{
+        left: 0;
+        top: 100%;
+    }
+    100%{
+        left: 10%;
+        top: 90%;
+    }
+    
 }
