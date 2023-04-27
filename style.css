@@ -107,3 +107,21 @@
 .ex-4-square{
     transition: 1s;
 }
+
+/* Esercizio 5 */
+
+.ex-5-square:hover{
+    scale: 2;
+}
+
+.ex-5-square{
+    transition: 1s;
+}
+
+.ex-5-square:active{
+    scale: 0.5;
+}
+
+.ex-5-square{
+    transition: 1s;
+}
