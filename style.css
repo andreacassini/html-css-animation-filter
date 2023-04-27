@@ -152,3 +152,17 @@
 .ex-8-img{
     transition: 2s;
 }
+
+/* Esercizio 9 */
+
+.ex-9-img:hover{
+    scale: 1.5;
+    filter: grayscale(50%) sepia(50%);
+    border-radius: 20px;
+}
+
+.ex-9-img{
+    transition: 2s;
+}
+
+/* Esercizio 10 */
