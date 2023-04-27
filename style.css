@@ -141,3 +141,14 @@
 .ex-7-img{
     transition: 3s;
 }
+
+/* Esercizio 8 */
+
+.ex-8-img:hover{
+    filter: grayscale(50%) sepia(50%);
+    border-radius: 20px;
+}
+
+.ex-8-img{
+    transition: 2s;
+}
